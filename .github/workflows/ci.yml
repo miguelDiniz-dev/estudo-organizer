@@ -25,4 +25,4 @@ jobs:
         run: ruff check .
 
       - name: Rodar os Testes Automatizados (Pytest)
-        run: pytest -m pytest
+        run: python -m pytest
