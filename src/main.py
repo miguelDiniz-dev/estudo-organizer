@@ -13,7 +13,7 @@ def obter_dica():
             dados = resposta.json()
             return f"Dica da API: {dados['slip']['advice']}"
         return "Dica local: Estude um pouco todos os dias!"
-    except:
+    except Exception:
         return "Dica local: Mantenha o foco e não desista!"
 
 
