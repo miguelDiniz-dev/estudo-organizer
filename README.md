@@ -1,15 +1,17 @@
 # Organizador de Estudos CLI
 
-**Versão:** 1.0.0
+**Link do Repositório (Deploy CLI):** https://github.com/miguelDiniz-dev/estudo-organizer
+
+**Versão:** 2.0.0
 **Autor:** Miguel Oliveira Diniz Silva Ferreira
 
 ## O Problema Real
 Muitos estudantes têm dificuldade de visualizar e organizar as horas que precisam dedicar a cada disciplina. Este projeto resolve essa dor oferecendo uma interface simples de linha de comando (CLI) para registrar matérias e planejar as horas de estudo.
 
 ## Funcionalidades Principais
+- Consumo de API Pública para exibir dicas de estudo motivacionais.
 - Adicionar uma nova matéria e horas de estudo.
 - Listar o plano de estudos cadastrado.
-
 ## Tecnologias Utilizadas
 - **Linguagem:** Python 3.10+
 - **Testes:** `pytest`
